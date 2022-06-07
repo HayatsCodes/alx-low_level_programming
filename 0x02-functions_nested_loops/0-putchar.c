@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - print _putchar followed by a new line
- * no parameter needed
- * Return: 0 if successful
- */
+* main - print _putchar followed by a new line
+*
+* Return: on success 0
+*/
 
 int main(void)
 {
@@ -18,4 +18,4 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 	return (0);
-)
+}
