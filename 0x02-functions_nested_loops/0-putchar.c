@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
-* main - print _putchar followed by a new line
-*
-* Return: on success 0
-*/
+ * main - print _putchar followed by a new line
+ * 
+ * Return: 0 if successful
+ */
+
 int main(void)
 {
 	_putchar('_');
@@ -15,6 +16,6 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar("\n");
+	_putchar('\n');
 	return (0);
 }
