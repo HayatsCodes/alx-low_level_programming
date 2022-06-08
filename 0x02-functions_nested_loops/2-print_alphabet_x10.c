@@ -12,7 +12,7 @@ void print_alphabet_x10(void)
 	while (b < 10)
 	{
 		c = 'a';
-		while (c < 'z')
+		while (c <= 'z')
 		{
 			_putchar(c);
 			c++;
