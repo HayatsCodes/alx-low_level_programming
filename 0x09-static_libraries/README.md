@@ -1,2 +1,1 @@
-
-task for static libraries.
+# C - Static Libraries.
