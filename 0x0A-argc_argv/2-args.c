@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
 * main - prints all argument its receive
-* @argc - argument count
-* @argv - argument vector
+* @argc: Argument count
+* @argv: Argument vector
 *
 * Return: on success, 0.
 */
