@@ -1,24 +1,36 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
- * jack_bauer - prints every minute of jack bauer day
- * no need for parameter
- * Return: does not return anything
+ *  jacK_bauer - prints every minute of the day.
+ * 
+ * Return: nothing.
  */
+void jack_bauer(void);
+int main(void)
+{
+    jack_bauer();
+    return(0);
+}
 void jack_bauer(void)
 {
-	int h, m;
+    int i, j, k, l;
+    
+    for (i = 0; i <= 2; i++)
+    {
+        for (j = 0; j <= 3; j++)
+        {
+            for (k = 0; k <= 5; k++)
+            {
+                for (l = 0; l <= 9; l++)
+                {
+                    _putchar('0' + i);
+                    _putchar('0' + j);
+                    _putchar(':');
+                    _putchar('0' + k);
+                    _putchar('0' + l);
+                    _putchar('\n');
 
-	for (h = 0; h < 24; h++)
-	{
-		for (m = 0; m < 60; m++)
-		{
-			_putchar('0' + (h / 10));
-			_putchar('0' + (h % 10));
-			_putchar(':');
-			_putchar('0' + (m / 10));
-			_putchar('0' + (m % 10));
-			_putchar('\n');
-		}
-	}
+                }
+            }
+        }
+    }
 }
