@@ -1,15 +1,9 @@
-#include <stdio.h>
+#include "main.h"
 /**
  *  jacK_bauer - prints every minute of the day.
  * 
  * Return: nothing.
  */
-void jack_bauer(void);
-int main(void)
-{
-    jack_bauer();
-    return(0);
-}
 void jack_bauer(void)
 {
     int i, j, k, l;
