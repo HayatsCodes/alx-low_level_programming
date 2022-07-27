@@ -18,7 +18,7 @@ void print_times_table(int n)
 			for (j = 0; j <= n; j++)
 			{
 				mul = i * j;
-				printf("%f %d", 3, mul);
+				printf("%3d", mul);
 				if (j != n)
 					printf(", ");
 			}
