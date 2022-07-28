@@ -14,9 +14,8 @@ int main(void)
 	fib1 = 1;
 	fib2 = 2;
 	printf("%ld, %ld, ", fib1, fib2);
-	
 	fibonacci = fib1 + fib2;
-	for ( i = 3; i <= 50; i++)
+	for (i = 3; i <= 50; i++)
 	{
 		if (fibonacci != 20365011074)
 			printf("%ld, ", fibonacci);
